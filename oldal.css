@@ -1,0 +1,13 @@
+li{ 
+    cursor: pointer;
+}
+
+li:hover{ 
+    background-color: lightblue; 
+    font-style: italic;
+}
+
+img{ 
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}

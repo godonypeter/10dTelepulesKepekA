@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="oldal.css">
+    <title>Kedves településeink</title>
+</head>
+<body>
+     <div class="container">
+        <div class="jumbotron">
+            <h1>Kedvenc településeink</h1>
+            <p>A 10.D A csoportjának kedvenc telülései</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li>Angyal László Dániel</li>
+                    <li>Bakos Boglárka</li>
+                    <li>Bárdy Marcell</li>
+                    <li>Csuka Dániel</li>
+                    <li onclick="kepcsere('zakopane');">Zakopane (PL)</li>
+                    <li>Kollarics Dominik Mike</li>
+                    <li>Kozák Hunor</li>
+                    <li>Láng Milán Zoltán</li>
+                    <li>Miklós Botond</li>
+                    <li>Mohácsi Tamás Máté</li>
+                    <li>Molnár Levente</li>
+                    <li>Nguyen Duc Minh</li>
+                    <li>Radnó Levente Benjámin</li>
+                    <li>Szabó András</li>
+                    <li>Szabó Dénes László</li>
+                    <li>Zsolnai Márk Jácint</li>
+                    <li>Angyal László Dániel</li>
+                    <li>Bakos Boglárka</li>
+                    <li>Bárdy Marcell</li>
+                    <li>Csuka Dániel</li>
+                    <li>Eger</li>
+                    <li>Kollarics Dominik Mike</li>
+                    <li>Kozák Hunor</li>
+                    <li>Láng Milán Zoltán</li>
+                    <li>Miklós Botond</li>
+                    <li>Mohácsi Tamás Máté</li>
+                    <li>Molnár Levente</li>
+                    <li>Nguyen Duc Minh</li>
+                    <li>Radnó Levente Benjámin</li>
+                    <li>Szabó András</li>
+                    <li>Szabó Dénes László</li>
+                    <li>Zsolnai Márk Jácint</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <img src="kepek/pataky.png" class="img-fluid img-thumbnail w-100" id="nagykep1">
+                <img src="kepek/kobanya.png" class="img-fluid img-thumbnail w-100" id="nagykep2">
+            </div>
+        </div>
+     </div>   
+     <script>
+        function kepcsere(telepulesnev){
+            nagykep1.src='kepek/'+telepulesnev+'1.png';
+            nagykep2.src='kepek/'+telepulesnev+'2.png';
+        }
+     </script>
+</body>
+</html>
